@@ -19,3 +19,8 @@ zip: update
 
 	rm -f "${PWD}/disqus-wordpress-${VERSION}.zip"
 	zip -r "${PWD}/disqus-wordpress-${VERSION}.zip" disqus -x "*.git*"
+
+install:
+	@echo "${PWD}/../disqus/"
+	rm -rf "${PWD}/../disqus/"
+	cp -r "${PWD}/disqus" "${PWD}/../disqus/"
