@@ -1,0 +1,15 @@
+{
+	"name": "cftp/disqus-comment-system",
+	"description": "Disqus comment system",
+	"license": "GPL-2.0+",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name"    : "Code For The People",
+			"homepage": "http://codeforthepeople.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
