@@ -1,3 +1,0 @@
-[submodule "disqus/lib/api"]
-	path = disqus/lib/api
-	url = git@github.com:cftp/php-disqus.git
